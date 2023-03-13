@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-contract BikeChain {
+contract RideChain {
 
     address owner;
     uint ownerBalance;
