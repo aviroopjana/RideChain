@@ -1,14 +1,15 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.10;
 
-contract BikeChain {
+contract RideChain {
 
     address owner;
     uint ownerBalance;
 
-    constructor() {
+    constructor() payable {
         owner = msg.sender;
+        // require(msg.value >= 1 ether, "Insufficient ether sent with transaction");
     }
 
     // Add yourself as a Renter
