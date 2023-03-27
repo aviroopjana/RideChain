@@ -1,4 +1,5 @@
 node_modules
+.secret
 .env
 coverage
 coverage.json
